@@ -1,0 +1,11 @@
+# Ignore Terraform provider plugins
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Local Terraform state files
+*.tfstate
+*.tfstate.backup
+
+*.tfvars
+*.auto.tfvars
