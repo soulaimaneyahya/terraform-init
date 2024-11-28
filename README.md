@@ -31,4 +31,4 @@ terraform apply -target=linode_instance.linode_servers
 terraform destroy
 ```
 
-Learn more: [Manage AWS infra using terraform]("https://engineering.multividas.com/posts/manage-aws-infra-using-terraform")
+Learn more: [Manage AWS infra using terraform](https://engineering.multividas.com/posts/manage-aws-infra-using-terraform)
