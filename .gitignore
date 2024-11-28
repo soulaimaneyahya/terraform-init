@@ -9,3 +9,6 @@
 
 *.tfvars
 *.auto.tfvars
+
+planfile
+
