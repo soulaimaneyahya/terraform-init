@@ -74,7 +74,6 @@ resource "aws_instance" "aws_dev_servers" {
 # S3 Bucket
 resource "aws_s3_bucket" "main_bucket" {
   bucket = "main-bucket-soulaimane"
-  acl    = "private"
 
   tags = {
     Name  = "Main Bucket"
@@ -83,7 +82,6 @@ resource "aws_s3_bucket" "main_bucket" {
 
 resource "aws_s3_bucket" "dev_bucket" {
   bucket = "dev-bucket-soulaimane"
-  acl    = "private"
 
   tags = {
     Name  = "Dev Bucket"
